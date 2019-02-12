@@ -89,14 +89,18 @@ for article in Article_list:
 
     index4=0
     while index4<30:
-        word_len=dict_1["Your word"]
+        word_len=dict_1["Adults"]
         word=line[word_len]
 
-        if word=="":
-            your_word=your_word+1
+        if word=="Adults":
+            Adults=Adults+1
             
-        elif word=="":
-            your_word=your_word+1
+        elif word=="developed":
+            Adults=Adults+1
+            elif word=="grown up":
+            Adults=Adults+1
+            elif word=="mature":
+            Adults=Adults+1
 
 
         index4=index+1
